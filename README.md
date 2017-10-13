@@ -1,8 +1,11 @@
 # Python Cache Simulator
 
 Create a cache simulator with a simulated page table. 
+
 Replacement policy: least recently used
+
 Write policy: write back
+
 Unit test and integration test are both included.
 
 ## Getting Started
@@ -18,8 +21,11 @@ Address is represented by integer.
 ### Size
 
 Block size is either 32 or 64. 
+
 Cache size is n^2 and it should not be smaller than 64.
+
 Block size is n^2 and it is recommended to be larger than cache size.
+
 
 ### Prerequisites
 
@@ -38,6 +44,7 @@ No extra modules are needed to be installed.
 "file1.txt", "file2.txt", "file3.txt" are provided.
 
 If you want to generate a file with random information, use test_utils.gen_simulator_file(cache_size).
+
 Remember to delete the generated file after finish to avoid affecting the test result. 
 
 ### Example
